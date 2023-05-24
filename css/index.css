@@ -5,7 +5,20 @@ body {
 
 }
 
+.serviceimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
 .servicerow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.servicerow2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,17 +26,19 @@ body {
 
 #servicehead {
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 30px;
+
 }
 
 .servicecolumn {
     width: 300px;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    margin: 70px;
+    padding: 30px;
+    border: 3px solid #ccc;
     border-radius: 5px;
     background-color: #e0d2d2;
+    margin-top: 140px;
     
 }
 
@@ -36,4 +51,5 @@ body {
 .servicecolumn p {
     font-size: 14px;
     line-height: 1.5;
+    font-size: 15px;
 }
