@@ -1,8 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-background-image: url("/Images/yubi.jpeg");
+  
+}
+
+.servicecontainer{
+    background-image: url("/Images/yubi.jpeg");
+    background-size: cover;
+background-repeat: no-repeat;
 }
 
 .serviceimg {
@@ -39,6 +43,8 @@ background-image: url("/Images/yubi.jpeg");
     border-radius: 10px;
     margin-top: 140px;
     box-shadow:0 5px 10px 0 ;
+    background-color: rgba(255, 25, 0, 0.179);
+    
     
 }
 
@@ -52,4 +58,24 @@ background-image: url("/Images/yubi.jpeg");
     font-size: 14px;
     line-height: 1.5;
     font-size: 15px;
+}
+
+/* end of Sevice page */
+
+
+/* start of contact us */
+
+.container{
+background-image: url('/Images/bett.webp');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+
+}
+.headercontact{
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 50px;
 }
