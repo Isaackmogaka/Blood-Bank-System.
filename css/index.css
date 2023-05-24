@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+
+}
+body {
+    height: 100%;
+    width: 100%;
+    
+
+}
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color:quamarine;
+    background-image: url("../Images/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
