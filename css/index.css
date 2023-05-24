@@ -1,24 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
 .servicerow {
-    height: 500px;
-    background-color: antiquewhite;
-    margin-top: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#servicehead {
     text-align: center;
-    
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .servicecolumn {
-    float: left;
-    width: 20%;
-    text-align: center;
-    background-color: rgb(184, 212, 212);
-    height: 300px;
-    box-shadow:inset;
-    border-radius: 15px;
-    margin-left: 50px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0d2d2;
+    
 }
 
-#servicehead{
-    text-align: center;
+.servicecolumn h4 {
     font-size: 20px;
-    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.servicecolumn p {
+    font-size: 14px;
+    line-height: 1.5;
 }
