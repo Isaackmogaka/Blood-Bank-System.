@@ -67,7 +67,7 @@ background-repeat: no-repeat;
 /* start of contact us */
 
 .container {
-    background-image: url('/Images/bett.webp');
+    background-image: url('/Images/vee1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -89,16 +89,16 @@ background-repeat: no-repeat;
     margin-bottom: 30px;
   }
   
-  #my-form {
+  #my-form{
  padding: 30px;
     color: white;
     font-size: 30px;
     font-weight: 20px;
-    align-items: center;
-   
+    align-items: center; 
   }
-  
-  
+.form-group2{
+    padding-left: 30px;
+}
   .my-form label {
     display: block;
   }
@@ -107,7 +107,7 @@ background-repeat: no-repeat;
   textarea {
     width: 40%;
     padding: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 10px;
     margin: 10px;
   }
@@ -119,27 +119,39 @@ background-repeat: no-repeat;
     margin: 20px;
     padding: 30px;
   }
-  
-  .button {
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  button {
-    padding: 30px 40px;
-    background-color: #4CAF50;
-    color: #fff;
+/*   
+ .button {
+color: white;
+align-items: center;
+justify-content: center;
+background-color: #45a049;
+padding: 10px;
+width: 10vw;
+font-size: 2rem;
+border-radius: 5px solid white; */
+
+
+
+.submit{
+    background-color: #4CAF50; /* Green */
     border: none;
-    border-radius: 4px;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
-margin-top: 40px;
+    border-radius: 20px;
   }
+
+  /* Hover effect */
+  .submit:hover {
+    background-color: #c7d31b; /* Darker green */
+  }
+
+
   
-  button:hover {
-    background-color: #45a049;
-  }
   
   #lady1 {
     width: 30px;
@@ -212,4 +224,34 @@ color: beige;
 .admincontainer form{
     
 }
-  
+input[type="text"],
+textarea {
+  width: 20%;
+  padding: 30px;
+  border: 1px solid #c21f1f;
+  border-radius: 10px;
+  margin: 10px;
+}
+input {
+   
+    background-color: #edf4ed;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4CAF50;
+  }
+  input.button {
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    width: 80px;
+    font-size: 20px;
+    margin-left: 90px;
+  }
