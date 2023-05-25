@@ -1,5 +1,4 @@
 body {
-    /* background-color: white; */
     font-family: Verdana;
     text-align: center;
     background-image: url("../Images/donation.jpg");
@@ -8,7 +7,6 @@ body {
     
 
   }
-  
 
   /* Styling the Form (Color, Padding, Shadow) */
   form {
