@@ -185,3 +185,31 @@ margin-top: 10px;
     display: flex;
     flex-direction: column;
   }
+
+  /* end contact info */
+
+
+
+  /* start Admin */
+  .error {
+    color: red;
+  }
+
+  .admincontainer{
+
+background-image: url('/Images/bett.webp');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+color: beige;
+
+}
+.adm{
+
+    text-align: center;
+    margin-top:30px ;
+}
+.admincontainer form{
+    
+}
+  
