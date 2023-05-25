@@ -2,7 +2,7 @@ body {
     overflow: hidden;
     background-image: url('/Images/board-card.jpg');
     background-repeat: no-repeat;
-    background-size: 65%;
+    background-size: 60%;
     background-color: grey;
 }
 h1 {
@@ -17,4 +17,15 @@ hr {
     position: relative;
     margin-left: 900px;
     margin-right: 400px;
+}
+p {
+    float: right;
+    color: white;
+    font-size: 17px;
+}
+footer {
+    float: right;
+    bottom: -20rem;
+    position: relative;
+    margin-right: -725px;
 }
