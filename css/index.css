@@ -1,0 +1,283 @@
+body {
+ft-ayub
+    font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.servicecontainer{
+    background-image: url("/Images/yubi.jpeg");
+    background-size: cover;
+background-repeat: no-repeat;
+}
+
+.serviceimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+
+.servicerow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.servicerow2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#servicehead {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px; 
+    color: beige;
+}
+
+.servicecolumn {
+    width: 400px;
+    margin: 60px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow:0 5px 10px 0 ;
+    background-color: rgba(255, 162, 0, 0.668);
+    
+    
+}
+
+.servicecolumn h4 {
+    font-size: 30px;
+   
+}
+
+
+.servicecolumn p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: px;
+}
+
+/* end of Sevice page */
+
+
+/* start of contact us */
+
+.container {
+    background-image: url('/Images/vee1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+  }
+  
+  .columncontact {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .headercontact {
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #my-form{
+ padding: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+    align-items: center; 
+  }
+.form-group2{
+    padding-left: 30px;
+}
+  .my-form label {
+    display: block;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 40%;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .my-form input[type="text"],
+  .my-form textarea {
+    padding: 10px;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+  }
+
+
+.submit{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+
+  /* Hover effect */
+  .submit:hover {
+    background-color: #c7d31b; /* Darker green */
+  }
+
+
+  
+  
+  #lady1 {
+    width: 20%;
+    margin-top: 20px;
+    float: right;
+    height:400px;
+    
+  }
+  #gettouch{
+color: #fff;
+float:left;
+text-align: center;
+font-size: 40px;
+  }
+
+
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+  }
+  
+  /* Styling for the contact info section */
+  .contact-info {
+    margin-top: 20px;
+    color: white;
+    float: right;
+    font-size: 40px;
+    padding-right: 300px;
+  }
+  
+  .contact-info div {
+margin-top: 10px;
+
+  }
+  .contactfooter{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* end contact info */
+
+
+
+ 
+
+    font-family: Verdana;
+    text-align: center;
+    background-image: url("../Images/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  form {
+    background-color: transparent;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border: black;
+  }
+  .form-control {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+  } 
+  button {
+    background-color: rgb(135, 228, 197);
+    border: 1px solid #777;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  form {
+    background-color: aquamarine;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: medium;
+  }
+  .form-control {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .form-control label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+  }
+  .form-control input[type="radio"],
+  .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+  }
+  p{
+    font-weight: bold;
+    font-size: small;
+    font-size: medium;
+  }
+  img{
+    border-radius:50rem;
+  }
+  #form{
+    background-color: transparent;
+  }
+ 
+  
+
