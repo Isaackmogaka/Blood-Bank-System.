@@ -20,3 +20,21 @@ body {
     background-position: center; 
 
 }
+.login-box {
+    position: relative;
+    width: 40vw;
+    height: 450px;
+    background-color: rgb(12, 189, 212);
+    background: transparent;
+    border: 3px solid rgb(12, 189, 212);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+h1 {
+    font-size: 3em;
+    color: rgb(12, 189, 212);
+    text-align: center;
+}
