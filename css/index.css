@@ -18,15 +18,6 @@ body {
     text-align: left;
     margin-bottom: 25px;
   }
-  
-  /* Styling form-control Label */
-  .form-control label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  /* Styling form-control input,
-  select, textarea */
   .form-control input,
   .form-control select,
   .form-control textarea {
@@ -37,7 +28,6 @@ body {
     display: block;
     width: 95%;
   } 
-  /* Styling Button */
   button {
     background-color: rgb(135, 228, 197);
     border: 1px solid #777;
@@ -49,7 +39,6 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
   }
-  /* Styling the Form (Color, Padding, Shadow) */
   form {
     background-color: aquamarine;
     max-width: 500px;
@@ -58,21 +47,14 @@ body {
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
     font-size: medium;
   }
-  
-  /* Styling form-control Class */
   .form-control {
     text-align: left;
     margin-bottom: 25px;
   }
-  
-  /* Styling form-control Label */
   .form-control label {
     display: block;
     margin-bottom: 10px;
   }
-  
-  /* Styling form-control input,
-  select, textarea */
   .form-control input,
   .form-control select,
   .form-control textarea {
@@ -83,17 +65,11 @@ body {
     display: block;
     width: 95%;
   }
-  
-  /* Styling form-control Radio
-  button and Checkbox */
   .form-control input[type="radio"],
   .form-control input[type="checkbox"] {
     display: inline-block;
     width: auto;
   }
-  
-  /* Styling Button */
-  
   p{
     font-weight: bold;
     font-size: small;
