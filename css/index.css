@@ -4,11 +4,8 @@ body {
     background-image: url("../Images/donation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-
   }
 
-  /* Styling the Form (Color, Padding, Shadow) */
   form {
     background-color: transparent;
     max-width: 500px;
@@ -17,8 +14,6 @@ body {
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
     border: black;
   }
-  
-  /* Styling form-control Class */
   .form-control {
     text-align: left;
     margin-bottom: 25px;
