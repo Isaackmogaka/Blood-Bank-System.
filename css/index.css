@@ -1,0 +1,22 @@
+/* login page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: transparent;
+    background-color: aquamarine; 
+    background-image: url("../Images/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+}
