@@ -34,15 +34,14 @@
                 <textarea name="message" id="" cols="30" rows="10"></textarea>
             </div>
             <br>
-            <div class="button">
-               <button class="submit">Submit</button>
+            <div id="button">
+               <button class="submit"  :hover>Submit</button>
             </div>
          </form>
     </div>
     <!-- start footer -->
     <div class="footercontact">
-    <img id
-     src="/Images/lady1.png" alt="">
+  <div><img id="lady1" src="/Images/lady1.png" alt=""></div>
      <div id="gettouch"><h3>Get in Touch with our support <br>team <br> and donate cheerfully to save lives </h3></div>
 
 
@@ -70,15 +69,5 @@
 
 </div>     
 
-
-<script src="/script/script.js">
-
-var submitButton = document.getElementById("submitBtn");
-    submitButton.addEventListener("click", onSubmitClick);
-
-    function onSubmitClick() {
-      alert("Button clicked!");
-    }
-</script>
 </body>
 </html>
