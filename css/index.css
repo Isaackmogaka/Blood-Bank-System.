@@ -1,12 +1,8 @@
-
-/* body {
-
+/* 
 body {
-
-
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   position: relative;
-} */
+} 
 
 .servicecontainer{
     background-image: url("/Images/yubi.jpeg");
@@ -71,7 +67,7 @@ background-repeat: no-repeat;
 
 /* start of contact us */
 
-.container {
+/* .container {
     background-image: url('/Images/vee1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,11 +119,11 @@ background-repeat: no-repeat;
     width: 100%;
     margin: 20px;
     padding: 30px;
-  }
+  } */
 
 
-.submit{
-    background-color: #4CAF50; /* Green */
+/* .submit{
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 20px 30px;
@@ -138,16 +134,9 @@ background-repeat: no-repeat;
     cursor: pointer;
     border-radius: 20px;
   }
-
-
-  /* Hover effect */
   .submit:hover {
-    background-color: #c7d31b; /* Darker green */
+    background-color: #c7d31b;
   }
-
-
-  
-  
   #lady1 {
     width: 20%;
     margin-top: 20px;
@@ -156,10 +145,10 @@ background-repeat: no-repeat;
     
   }
   #gettouch{
-color: #fff;
-float:left;
-text-align: center;
-font-size: 40px;
+ color: #fff;
+ float:left;
+ text-align: center;
+ font-size: 40px;
   }
 
 
@@ -175,8 +164,6 @@ font-size: 40px;
     margin-right: 10px;
    
   }
-  
-  /* Styling for the contact info section */
   .contact-info {
     margin-top: 20px;
     color: white;
@@ -186,27 +173,22 @@ font-size: 40px;
   }
   
   .contact-info div {
-margin-top: 10px;
+    margin-top: 10px;
 
   }
   .contactfooter{
     display: flex;
     flex-direction: column;
-  }
+  } */ 
 
-  /* end contact info */
-
-
-
-/*  
-
-    /* font-family: Verdana;
+  end contact
+body{
+    font-family: Verdana;
     text-align: center;
     background-image: url("../Images/donation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  } */
-
+  } 
   form {
     background-color: transparent;
     max-width: 500px;
@@ -281,7 +263,266 @@ margin-top: 10px;
   }
   #form{
     background-color: transparent;
-  }
+  } */
+
+
+  
+  /* login page */
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow: hidden;
+
+ }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow: hidden;
+
+}
+.bodyLlogIN{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: transparent;
+   background-color: aquamarine; 
+   background-image: url("../Images/donation.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+  
+}
+.login-box {
+  position: relative;
+  width: 40vw;
+  height: 450px;
+  background-color: rgb(12, 189, 212);
+  background: transparent;
+  border: 3px solid rgb(12, 189, 212);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+h1 {
+  font-size: 3em;
+  color: rgb(12, 189, 212);
+  text-align: center;
+}
+.input-box {
+  position: relative;
+  width: 310px;
+  margin: 30px 0;
+  border-bottom: 3px solid black;
+}
+.input-box label {
+  position: absolute;
+  top: 18%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: black;
+  pointer-events: none;
+  transition: .9s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+  top: 10px;
+}
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: black;
+  padding: 0 40px 0 5px;
+}
+.input-box .icon {
+  position: absolute;
+  right: 8px; 
+  /* color: ; */
+   font-size: 1.5em;
+  line-height: 50px;
+}
+.remember-forgot {
+  margin: -15px 0 15px;
+  font-size: .9em;
+  display: flex;
+  justify-content: space-between;
+}
+.remember-forgot label input {
+  margin-right: 3px;
+}
+.remember-forgot a { 
+  /* color: ; */
+   text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
+}
+.register-link {
+  font-size: .9em;
+  color: black;
+  text-align: center;
+  margin: 25px 0 10px;
+
+} 
+
+.register-link p a {
+  /* color: bla; */
+   text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+} 
+
+/* about */
+.aboutus {
+  overflow: hidden;
+  background-image: url('/Images/board-card.jpg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-color: grey;
+}
+.aboutus h1 {
+  margin-top: 0px;
+  color: white;
+  font-size: 200px;
+  float: right;
+  margin-right: 400px;
+}
+.aboutus hr {
+  top: -10rem;
+  position: relative;
+  margin-left: 900px;
+  margin-right: 400px;
+}
+.aboutus p {
+  float: right;
+  color: white;
+  font-size: 17px;
+}
+.aboutus footer {
+  float: right;
+  bottom: -20rem;
+  position: relative;
+  margin-right: -725px;
+} */
+
+
+/* home  */
+.home{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.home header {
+  background-color: aqua;
+  padding: 20px;
+  text-align: right;
+  height: 55px;
+}
+.logo img {
+  margin-top: -30px;
+  margin-left: -15px;
+  width: 80px;
+  float: left;
+  position: relative;
+  border-radius: 50px;
+  margin-bottom: 60px;
+}
+header li {
+  display: inline;
+  padding: 20px;
+}
+li a {
+  text-decoration: none;
+}
+ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.HomePage h1 {
+ float: right;
+ margin-right: 2rem;
+ font-size: 8rem;
+ text-decoration: aqua;
+}
+.HomePage p {
+  float: right;
+  margin-right: -18rem;
+  margin-top: 400px;
+  font-size: 40px;
+}
+.HomePage img {
+  float: left;
+  margin-top: -52px;
+  margin-left: 0px;
+  width: 55%;
+  height: 81vh;
+}
+.HomePage button {
+  float: right;
+  margin-right: 16rem;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: red;
+  padding: 40px;
+  width: 25%;
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+}
+footer .HomePage1 {
+  background-color: aqua;
+  margin-top: 790px;
+  padding-top: 60px;
+}
+footer  .HomePage1 ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  list-style: none;
+}
+footer .HomePage1 ul li {
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  top: -2rem;
+  position: relative;
+}
+ 
+
+
+
+
+
+
  
   
 
