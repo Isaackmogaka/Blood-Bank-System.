@@ -1,8 +1,8 @@
-body {
+/* body {
 ft-ayub
     font-family: Arial, sans-serif;
   position: relative;
-}
+} */
 
 .servicecontainer{
     background-image: url("/Images/yubi.jpeg");
@@ -194,14 +194,14 @@ margin-top: 10px;
 
 
 
- 
+/*  
 
     font-family: Verdana;
     text-align: center;
     background-image: url("../Images/donation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 
   form {
     background-color: transparent;
