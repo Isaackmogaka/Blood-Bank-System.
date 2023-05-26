@@ -97,7 +97,11 @@ background-repeat: no-repeat;
     align-items: center; 
   }
 .form-group2{
-    padding-left: 30px;
+    padding-right: 39px;
+}
+.mess{
+margin-bottom: 200px;
+
 }
   .my-form label {
     display: block;
