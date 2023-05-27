@@ -4,125 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=".//css/index.css">
+  <link rel="stylesheet" href="./css/index.css">
+    <title>Blood Bank Management</title>
 </head>
-<body>
+<body >
+    <header>
+        <nav class="homenav">
+             <img src="Images/logo.jpg" alt="Logo">
+           <div class="homelist">
+            <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="form.html">Donate Now</a></li>
+                <!-- <li><a href="#"></a></li>   -->
+            </ul>
+        </div>    
+        </nav>
+    </header>
+    <div class="HomePage"> 
+        <img src="Images/blood.jpeg">
+        <div class="homecontent">
+            <h1>Donate Blood, <br>Save Life!</h1>
+            <p>Make a difference</p>
+            <button><a href="login.html">Login</a></button>
+        </div>
+    </div>
     
-    <form id="form">
-        <img src="./Images/image (1) (1).png" alt="logo">
-        <h1>Blood Donation form</h1>
-    <p>Confidential-please answer the following questions correctly.<br>This will help the donor and the reciever.</p>
- 
-        
-        <div class="form-control">
-            <label for="name" id="label-name">
-                Name
-            </label>
- 
-            
-            <input type="text"
-                   id="name"
-                   placeholder="Enter your name" />
+    <footer>
+        <div class="HomePage1">
+        <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="Contact.us.html">Contact Us</a></li>
+        </ul>
         </div>
-  
-        <div class="form-control">
-            <label for="email" id="label-email">
-                Email
-            </label>
- 
-            
-            <input type="email"
-                   id="email"
-                   placeholder="Enter your email" />
-        </div>
-  
-        <div class="form-control">
-            <label for="age" id="label-age">
-                Age
-            </label>
- 
-            
-            <input type="text"
-                   id="gender"
-                   placeholder="Enter your age" />
-        </div>
-        <div class="form-control">
-            <label for="age" id="label-age">
-                Gender
-            </label>
-            <select name="role" id="type">
-                <option value="Female">Female</option>
-                <option value="Male">Male</option>
-               
-            </select>
-        </div>
-        <div class="form-control">
-            <label for="age" id="label-age">
-                Contacts
-            </label>
- 
-            
-            <input type="text"
-                   id="age"
-                   placeholder="Enter contacts"/>
-        </div>
-        <div class="form-control">
-            <label for="contacts" id="label-name">
-                When was the last time you donated
-            </label>
- 
-            
-            <input type="text"
-                   id="contacts"
-                   placeholder=""/>
-        </div>
-        <div class="form-control">
-            <label for="allergies" id="label-name">
-                Do you have any allergies
-            </label>
- 
-            
-            <select name="role" id="type">
-                <option value="Female">Yes</option>
-                <option value="Male">No</option>
-                <option value="Male"></option>
-               
-            </select>
-        </div>
-        <div class="form-control">
-            <label for="diseases" id="label-name">
-                Do you have any diseases
-            </label>
- 
-            
-            <select name="role" id="type">
-                <option value="Female">Yes</option>
-                <option value="Male">No</option>
-               
-            </select>
-         </div>
-        <div class="form-control">
-            <label for="role" id="label-role">
-                What is your blood type.
-            </label>
-             
-            
-            <select name="role" id="type">
-                <option value="B Rh+">B Rh+</option>
-                <option value="A Rh-">A Rh-</option>
-                <option value="0 Rh+">0 Rh+</option>
-                <option value="A Rh+">A Rh+</option>
-                <option value="Ab Rh-">A Rh+</option>
-                <option value="A Rh-">A Rh+</option>
-            </select>
-        </div>
-        
-            <div class="submit-content">
-            <input type="button" name="submit" id="btn_tag" value="Submit" onclick="submit_by_tag()"/>
-            </div>
-    </form>
-
-    
+    </footer> 
 </body>
 </html>

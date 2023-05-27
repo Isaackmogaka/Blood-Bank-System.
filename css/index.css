@@ -1,8 +1,223 @@
-body {
-
-    font-family: Arial, sans-serif;
-  position: relative;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;  
 }
+.homenav{
+  height: 100px;
+  width: 100vw;
+  background-color: aqua
+}
+.homenav img{
+  height: 80px;
+  width: 80px;
+  border-radius: 3rem;
+  margin: 15px;
+}
+.homenav ul{
+  float: right;
+  
+}
+.homelist{
+ text-align: center;
+ float: right;
+line-height: 25px; 
+}
+.homelist ul li{
+  display: inline-block;
+  /* line-height: 25px; */
+  margin: 30px;
+  font-size: 150%;
+  font-weight: 700; 
+}
+.homelist ul{
+  list-style: none;
+}
+.HomePage{
+  display: flex;
+  height: 710px;
+  width: 100vw;
+}
+.HomePage img{
+  width: 65vw;
+}
+.homecontent{
+  text-align: center;
+}
+.homecontent h1{  
+  color: aqua;
+  font-size: 5rem;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.homecontent p{
+  font-size: 3rem;
+  padding: 20px;
+  margin-top: 50px;
+  color: aqua;
+}
+.homecontent button{
+  width: 50%;
+  height: 80px;
+  font-size: 2rem;
+  border-radius: 1rem;
+  background-color: red;
+  margin-top: 100px;
+
+}
+footer{
+  background-color: aqua;
+  height: 250px;
+  text-align: center;
+  color: brown;
+  
+}
+footer  .HomePage1 ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  list-style: none;
+}
+footer .HomePage1 ul li {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(35, 35, 136);
+  position: relative;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* about */
+.aboutimage{
+  overflow: hidden;
+  background-image: url('/Images/board-card.jpg'); 
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-color: grey;
+  background-size: contain;
+  height: 100vh;
+}
+.aboutus h1 {
+  margin-top: 0px;
+  color: white;
+  font-size: 200px;
+  float: right;
+  margin-right: 400px;
+}
+.aboutus hr {
+  top: -2rem;
+  position: relative;
+  margin-left:800px;
+  margin-right: 500px;
+}
+.aboutus p {
+  float: right;
+  color: white;
+  font-size: x;
+}
+.aboutus footer {
+  float: right;
+  bottom: -20rem;
+  position: relative;
+  margin-right: -725px;
+}
+.aboutus img{
+  margin-right: 65px;
+}
+.aboutimage .aboutmedia{
+  background-color: grey;
+}
+
+/* form */
+ .formdonor{
+    font-family: Verdana;
+    text-align: center;
+    background-image: url("../Images/donation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  #form {
+    background-color: transparent;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border: black;
+  }
+  .form-control {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+  } 
+  .submit-content button{
+    border: 1px solid #777;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: medium;
+  }
+  .form-control {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .form-control label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+  }
+  .form-control input[type="radio"],
+  .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+  }
+  p{
+    font-weight: bold;
+    font-size: small;
+    font-size: medium;
+  }
+  #form img{
+    border-radius:50rem;
+  } 
+  #form{
+    background-color: transparent;
+  } 
+  
+
+ body {
+  font-family: Arial, sans-serif;
+  position: relative;
+} 
 
 .servicecontainer{
     background-image: url("/Images/yubi.jpeg");
@@ -60,21 +275,139 @@ background-repeat: no-repeat;
     font-size: 14px;
     line-height: 1.5;
     font-size: px;
+} */
+
+
+  /* login page */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow: hidden;
+} 
+.logIN{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: transparent;
+   background-color: aquamarine; 
+   background-image: url("../Images/donation.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+  
 }
+.login-box {
+  position: relative;
+  width: 40vw;
+  height: 450px;
+  background-color: rgb(12, 189, 212);
+  background: transparent;
+  border: 3px solid rgb(12, 189, 212);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+h1 {
+  font-size: 3em;
+  color: rgb(12, 189, 212);
+  text-align: center;
+}
+.input-box {
+  position: relative;
+  width: 310px;
+  margin: 30px 0;
+  border-bottom: 3px solid black;
+}
+.input-box label {
+  position: absolute;
+  top: 18%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: black;
+  pointer-events: none;
+  transition: .9s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+  top: 10px;
+}
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: black;
+  padding: 0 40px 0 5px;
+}
+.input-box .icon {
+  position: absolute;
+  right: 8px;  
+   /* color: ;  */
+   font-size: 1.5em;
+  line-height: 50px;
+}
+.remember-forgot {
+  margin: -15px 0 15px;
+  font-size: .9em;
+  display: flex;
+  justify-content: space-between;
+}
+.remember-forgot label input {
+  margin-right: 3px;
+}
+.remember-forgot a {  
+   /* color: ;  */
+   text-decoration: none; 
+   }
 
-/* end of Sevice page */
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
+}
+.register-link {
+  font-size: .9em;
+  color: black;
+  text-align: center;
+  margin: 25px 0 10px;
 
+} 
+
+.register-link p a { 
+   color: bla; 
+   text-decoration: none;
+   font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+}  
 
 /* start of contact us */
-
-.container {
+ .container {
     background-image: url('/Images/vee1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 
   }
-  
   .columncontact {
     margin-left: auto;
     margin-right: auto;
@@ -98,7 +431,11 @@ background-repeat: no-repeat;
     align-items: center; 
   }
 .form-group2{
-    padding-left: 30px;
+    padding-right: 39px;
+}
+.mess{
+margin-bottom: 200px;
+
 }
   .my-form label {
     display: block;
@@ -119,11 +456,11 @@ background-repeat: no-repeat;
     width: 100%;
     margin: 20px;
     padding: 30px;
-  }
+  } 
 
 
 .submit{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 20px 30px;
@@ -134,16 +471,9 @@ background-repeat: no-repeat;
     cursor: pointer;
     border-radius: 20px;
   }
-
-
-  /* Hover effect */
   .submit:hover {
-    background-color: #c7d31b; /* Darker green */
+    background-color: #c7d31b;
   }
-
-
-  
-  
   #lady1 {
     width: 20%;
     margin-top: 20px;
@@ -152,10 +482,10 @@ background-repeat: no-repeat;
     
   }
   #gettouch{
-color: #fff;
-float:left;
-text-align: center;
-font-size: 40px;
+ color: #fff;
+ float:left;
+ text-align: center;
+ font-size: 40px;
   }
 
 
@@ -171,8 +501,6 @@ font-size: 40px;
     margin-right: 10px;
    
   }
-  
-  /* Styling for the contact info section */
   .contact-info {
     margin-top: 20px;
     color: white;
@@ -182,102 +510,14 @@ font-size: 40px;
   }
   
   .contact-info div {
-margin-top: 10px;
+    margin-top: 10px;
 
   }
   .contactfooter{
     display: flex;
     flex-direction: column;
-  }
-
-  /* end contact info */
-
-
-
- 
-
-    /* font-family: Verdana;
-    text-align: center;
-    background-image: url("../Images/donation.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-
-  form {
-    background-color: transparent;
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 30px 20px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    border: black;
-  }
-  .form-control {
-    text-align: left;
-    margin-bottom: 25px;
-  }
-  .form-control input,
-  .form-control select,
-  .form-control textarea {
-    border: 1px solid #777;
-    border-radius: 2px;
-    font-family: inherit;
-    padding: 10px;
-    display: block;
-    width: 95%;
   } 
-  button {
-    background-color: rgb(135, 228, 197);
-    border: 1px solid #777;
-    border-radius: 1rem;
-    font-family: inherit;
-    font-size: 21px;
-    display: block;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  form {
-    background-color: aquamarine;
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 30px 20px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-    font-size: medium;
-  }
-  .form-control {
-    text-align: left;
-    margin-bottom: 25px;
-  }
-  .form-control label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .form-control input,
-  .form-control select,
-  .form-control textarea {
-    border: 1px solid #777;
-    border-radius: 2px;
-    font-family: inherit;
-    padding: 10px;
-    display: block;
-    width: 95%;
-  }
-  .form-control input[type="radio"],
-  .form-control input[type="checkbox"] {
-    display: inline-block;
-    width: auto;
-  }
-  p{
-    font-weight: bold;
-    font-size: small;
-    font-size: medium;
-  }
-  img{
-    border-radius:50rem;
-  }
-  #form{
-    background-color: transparent;
-  }
- 
-  
 
+  
+ 
+ 
